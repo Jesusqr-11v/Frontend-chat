@@ -56,7 +56,7 @@ export const App = () => {
         <div className="user__info">
           <section className="user__name">
             <div className={stateColor}>{}</div>
-            <img src="/user.png" alt="user icon" className="user__icon" />
+            <img src="user.png" alt="user icon" className="user__icon" />
             <input
               type="text"
               className="user__text__name"
@@ -93,7 +93,7 @@ export const App = () => {
               value={newMessage}
             />
             <button className="user__button">
-              <img src="/send-icon.jpg" alt="send icon" />
+              <img src="send-icon.jpg" alt="send icon" />
             </button>
           </form>
         </div>
