@@ -173,17 +173,39 @@ body{
 }
 
 
-@media screen and (max-width: 800px) {
-    .container{
-        justify-content: flex-start;
-    }
+@media screen and (max-width: 769px) {
 
     .card__chat{
-        width: 40%;
+        width: auto;
+        min-width: 600px;
         height: auto;
     }
 
     .users__messages{
         height: 90vh;
     }
+}
+
+@media screen and (max-width: 550px) {
+
+    .card__chat{
+        min-width: 450px;
+    }
+
+}
+
+@media screen and (max-width: 481px) {
+    
+    .card__chat{
+        min-width: 350px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    
+    .card__chat{
+        min-width: 300px;
+    }
+
 }
